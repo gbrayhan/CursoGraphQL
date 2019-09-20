@@ -1,0 +1,14 @@
+type Curso {
+    _id: ID
+    titulo: String
+    maestro: String
+    descripcion: String
+    topic: String
+
+}
+
+
+type Query {
+    "Retorna todos los cursos existentes"
+    getCursos: [Curso]
+}
